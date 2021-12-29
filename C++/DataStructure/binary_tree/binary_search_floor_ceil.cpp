@@ -26,8 +26,8 @@ int binary_search_floor(int arr[], int n, int target)
 	return l;
 }
 
-// 查找 floor 元素
-int binary_search_floor(int arr[], int n, int target)
+// 查找 ceil 元素
+int binary_search_ceil(int arr[], int n, int target)
 {
 	int l = 0;
 	int r = n;
