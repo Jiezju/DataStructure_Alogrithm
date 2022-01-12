@@ -5,6 +5,7 @@
 #include <iostream>
 
 ListNode* removeNthFromEnd(ListNode* head, int n) {
+    // 设置 dummpy node 方便定位到 第 n-1 个节点
     ListNode* dummy_node = new ListNode(0);
     dummy_node->next = head;
 
